@@ -6,7 +6,7 @@ import requests
 
 
 # Load OpenAI API token from environment variables
-OPENAI_TOKEN = os.getenv("**************")
+OPENAI_TOKEN = os.getenv("eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjI0ZjEwMDIzMDJAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.qvr55GsuXlmTvvN27-MokpPJf8UjP-tM3RKQMLpv-6c")
 API_URL = "http://127.0.0.1:8000/run"
 
 @app.post("/run")
